@@ -1,0 +1,38 @@
+
+
+# Dependencies
+node_modules/
+
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment variables
+.env
+
+
+# Vite / React cache
+.vite/
+.cache/
+.parcel-cache/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+# Temporary files
+*.tmp
+*.temp
+
+
+
+# Optional: local config files
+*.local
