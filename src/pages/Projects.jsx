@@ -27,12 +27,18 @@ const PROJECTS = [
     code: "https://github.com/swayam-sp/ERP-System",
   },
   {
-    title: "🎓 University ERP ",
-    desc: "A single-page web application built as a demonstration of frontend development skills using HTML5, CSS3, and Vanilla JavaScript. It showcases SPA routing, state management, mock data handling, and role-based UI dashboards (Student, Faculty, Admin) with Chart.js visualizations.",
-    ss: "/university-erp.png",
-    tech: ["HTML5", "CSS3", "Vanilla JavaScript", "Chart.js"],
-    live: "https://static-university-erp-site.onrender.com/",
-    code: "https://github.com/swayam-sp/Static-UNI-Site",
+    title: "🎓 Career-Connect ",
+    desc: "A full-featured, LinkedIn-inspired professional networking platform — from the ground up using React.js, Vite, Tailwind CSS, React Router, and Framer Motion. The platform brings together authentication, a social feed, profile management, job search & apply, networking, real-time-style messaging, notifications, groups, and a learning hub — all in one fully responsive, light/dark-mode-ready experience.",
+    ss: "/Career-Connect.png",
+    tech: [
+      "React.js 18",
+      "Vite",
+      "Tailwind CSS",
+      "React Router v6",
+      "Framer Motion",
+    ],
+    live: "https://careerconnect-x6dn.onrender.com",
+    code: "https://github.com/swayam-sp/IP-11489_Career-Connect",
   },
   // {
   // title: '💼 Portfolio Website',
@@ -43,14 +49,6 @@ const PROJECTS = [
   // code: ''
   // },
   // {
-  //   title: '💬 DocuChat – Gemini AI Chatbot',
-  //   desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-  //   ss: '/Docuchat.png',
-  //   tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-  //   live: '#',
-  //   code: ''
-  // },
-  // {
   //   title: '📊 ProfileX – Data Profiler',
   //   desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
   //   ss: '/ProfileX.png',
@@ -58,14 +56,6 @@ const PROJECTS = [
   //   live: '#',
   //   code: ''
   // },
-  // {
-  //   title: '🧬 Breast Cancer Prediction',
-  //   desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-  //   ss: '/breastpred.jpg',
-  //   tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-  //   live: '#',
-  //   code: ''
-  //}
 ];
 
 export default function Projects() {
